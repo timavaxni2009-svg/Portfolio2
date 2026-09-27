@@ -8,7 +8,7 @@
 
 ## 📸 Скриншот
 
-Главная страница сайта ААРЕНДА АВТО <img width="1841" height="8210" alt="2026-09-28_01-39-43" src="https://github.com/user-attachments/assets/6f302d7d-d5cf-4e06-a96c-a3d2f4b881b4" />
+<img width="1841" height="8210" alt="2026-09-28_01-39-43" src="https://github.com/user-attachments/assets/6f302d7d-d5cf-4e06-a96c-a3d2f4b881b4" />
 
 
 
