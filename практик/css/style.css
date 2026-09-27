@@ -181,7 +181,7 @@ select {
     margin-bottom: 0;
     display: flex;
     justify-content: center;
-    
+
 }
 
 .auto-napis2 {
@@ -728,6 +728,7 @@ footer {
     background-color: var(--c-dark);
     justify-content: center;
     gap: 66px;
+    margin-bottom: 0px;
 }
 
 .footer-itemAuto {
