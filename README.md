@@ -34,6 +34,5 @@
 
 ## 💻 Как запустить локально
 
-    ```bash
     git clone https://github.com/timavaxni2009-svg/Portfolio2>.git
     cd <Portfolio2>
