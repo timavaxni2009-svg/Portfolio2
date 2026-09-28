@@ -45,7 +45,8 @@
     box-sizing: border-box;
 }
 
-html {
+html,
+body {
     scroll-behavior: smooth;
     font-family: var(--font-main);
 }
@@ -431,7 +432,7 @@ select {
 }
 
 .xx {
-    width: 11%;
+    width: 13%;
     padding-left: 15px;
     height: auto;
     border-left: 2px solid black;
@@ -745,8 +746,7 @@ footer {
     align-items: center;
     height: 345px;
     background-color: var(--c-dark);
-    justify-content: center;
-    gap: 66px;
+    justify-content: space-around;
     margin-bottom: 0;
 }
 
@@ -758,6 +758,7 @@ footer {
 .footer-itemDocuments {
     display: grid;
     gap: 26px;
+    max-width: 316px;
 }
 
 .footer-itemLink2 {
@@ -909,7 +910,7 @@ footer {
 
     .car-card {
         flex-direction: column;
-        width: 90%;
+        width: 100%;
         margin-left: 0;
     }
 
@@ -1239,7 +1240,7 @@ footer {
 
     /* --- Steps --- */
     .ysl-Title {
-        font-size: 11px;
+        font-size: 12px;
     }
 
     .ysl-itemTitleLeft {
@@ -1328,7 +1329,7 @@ footer {
     .callback-btn {
         width: 100%;
         height: 56px;
-        font-size: 11px;
+        font-size: 17px;
     }
 
     /* --- Lend --- */
@@ -1359,16 +1360,16 @@ footer {
 
     .footer-itemLink1 {
         width: 100%;
-        font-size: 10px;
+        font-size: 12px;
         line-height: 1.6;
     }
 
     .footer-itemLink2 {
-        font-size: 11px;
+        font-size: 12px;
     }
 
     .footer-emailLink {
-        font-size: 9px;
+        font-size: 12px;
         width: 100%;
         display: flex;
     }
