@@ -489,6 +489,7 @@ select {
 .ysl-itemTitle {
     gap: 72px;
     display: flex;
+    align-items: center;
 }
 
 .Titleee {
@@ -558,7 +559,6 @@ select {
 }
 
 .r {
-    margin-top: 71px;
     border-radius: var(--r-2xl);
     width: 376px;
     height: 386px;
@@ -566,10 +566,10 @@ select {
 }
 
 .ysl-itemTitleRightTitle {
-    margin: -7px;
     font-size: 30px;
-    margin-left: 29px;
     font-weight: bold;
+    display: flex;
+    justify-content: center;
 }
 
 .z {
@@ -713,7 +713,6 @@ select {
     margin-top: 46px;
     background: var(--c-yellow);
     border: none;
-    padding: 0.9rem 1rem;
     font-size: 37px;
     font-weight: 600;
     color: var(--c-white);
@@ -906,6 +905,10 @@ footer {
         margin-left: 0;
     }
 
+    .cc{
+        width: 100%;
+    } 
+
     .car-name {
         width: 100%;
     }
@@ -923,8 +926,8 @@ footer {
 
     .car-features li {
         height: 28px;
-        font-size: 13px;
-        width: 100%;
+        font-size: 18px;
+        width: 93%;
     }
 
     .xx {
@@ -981,7 +984,6 @@ footer {
 
     .ysl-itemTitleRightTitle {
         font-size: 22px;
-        margin-left: 24px;
     }
 
     .ysl-itemTitleRightItemTitle {
@@ -1011,11 +1013,11 @@ footer {
 
     .r {
         margin-left: 0;
-        margin-top: 40px;
         width: 260px;
         height: auto;
-        min-height: 320px;
-        padding-bottom: 24px;
+        min-height: 280px;
+        min-width: 133px;
+
     }
 
     .Titleee {
@@ -1035,6 +1037,7 @@ footer {
         gap: 24px;
         padding: 2rem;
         flex-wrap: wrap;
+        justify-content: center;
     }
 
     form.callback-form {
@@ -1043,7 +1046,6 @@ footer {
 
     .callbackLeft {
         width: 100%;
-        margin-left: 0;
     }
 
     .callback-title {
@@ -1065,8 +1067,7 @@ footer {
     }
 
     .callback-btn {
-        width: 100%;
-        height: 56px;
+        width: 113%;
         margin-top: 16px;
         font-size: 16px;
     }
@@ -1087,7 +1088,7 @@ footer {
     }
 
     .Lend-Inner {
-        width: 100%;
+        width: 82%;
         max-width: 460px;
     }
 
@@ -1096,9 +1097,7 @@ footer {
     }
 
     .Lend {
-        margin-left: 0;
         padding-inline: 16px;
-        gap: 24px;
     }
 
     /* --- Footer --- */
@@ -1156,6 +1155,10 @@ footer {
     .header_down-text {
         color: var(--c-white);
         font-size: 10px;
+    }
+
+    .header_down{
+        gap: 28px;
     }
     
     .header__inner-left{
@@ -1237,7 +1240,6 @@ footer {
 
     .ysl-itemTitleRightTitle {
         font-size: 16px;
-        margin-left: 19%;
     }
 
     .ysl-itemTitleRightItemTitle {
@@ -1284,8 +1286,7 @@ footer {
 
     .r {
         margin-left: 0;
-        margin-top: 71px;
-        width: 28%;
+        width: 40%;
         height: 267px;
     }
 
@@ -1293,7 +1294,6 @@ footer {
     .callback-section {
         height: 100%;
         width: 85%;
-        gap: 0;
     }
 
     .callback-title {
@@ -1306,11 +1306,9 @@ footer {
 
     .callback-phone {
         font-size: 20px;
-        margin-top: 121px;
     }
 
     .callback-form input {
-        width: 103%;
         height: 26px;
         font-size: 14px;
     }
@@ -1327,17 +1325,19 @@ footer {
     }
 
     p.LendItemm {
-        font-size: 15px;
+        font-size: 17px;
     }
 
     .Lendimg {
-        width: 229px;
+        display: none;
+    }
+
+    .Lend{
+        padding-inline: 0px;
     }
 
     .LendBottom {
-        width: 84%;
-        height: 74px;
-        font-size: 16px;
+        font-size: 18px;
     }
 
     /* --- Footer --- */
