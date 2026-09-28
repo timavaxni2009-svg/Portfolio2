@@ -1165,6 +1165,10 @@ footer {
         display: none;
     }
 
+    .header__innerleft-right{
+        justify-content: center;
+    }
+
     .header__number,
     .header__numberr {
         font-size: 11px;
